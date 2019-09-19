@@ -1,0 +1,12 @@
+#%RAML 0.8
+title: user
+version: v1
+/employees:
+  get:
+    responses: 
+      200:
+        body: 
+          application/json:
+            example: |
+              [{"name":"ram","age":18},
+               {"name":"rahim","age":19}]
